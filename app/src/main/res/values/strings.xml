@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Volo Customer</string>
+    <string name="app_logo">app logo</string>
+    <string name="menu_icon">menu icon</string>
+    <string name="search_icon">search_icon</string>
+    <string name="delivering_to">Delivering to:</string>
+    <string name="tap_to_select_address">Tap to select address</string>
+    <string name="browse_partners">Browse Partners</string>
+    <string name="company">Volo</string>
+    <string name="promotions">Promotions</string>
+    <string name="reservations">Reservations</string>
+    <string name="my_orders">My Orders</string>
+    <string name="home">Home</string>
+    <string name="my_reservations">My Reservations</string>
+    <string name="settings">Settings</string>
+    <string name="about_volo">About VOLO</string>
+    <string name="wallet">Wallet</string>
+    <string name="help">Help</string>
+    <string name="select_your_delivery_address">Select your delivery address:</string>
+    <string name="tap_to_choose_delivery_location">Tap to choose delivery location</string>
+    <string name="use_the_map_to_select_your_delivery_address">Use the map to select your delivery address</string>
+    <string name="_3333_riifa_avenue_913_riffa_037_2222222222">3333, Riifa Avenue, 913, Riffa, +037 2222222222</string>
+    <string name="_193_19_1260_awal_ave_324_juffair_937_777777777">193, 19, 1260, Awal Ave, 324, Juffair, _937 777777777</string>
+    <string name="location_icon">location icon</string>
+    <string name="close_icon">Close Icon</string>
 </resources>
