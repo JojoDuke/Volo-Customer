@@ -14,12 +14,13 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:layout_centerVertical="true"
-            android:textColor="@color/font_dark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="@string/select_your_delivery_address"/>
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/select_your_delivery_address"
+            android:textColor="@color/font_dark"
+            android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/close"
@@ -28,8 +29,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="10dp"
             android:contentDescription="@string/close_icon"
-            android:src="@drawable/ic_close"
-            app:tint="@color/font_dark" />
+            android:src="@drawable/ic_close_black"/>
 
     </RelativeLayout>
 
@@ -64,16 +64,18 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:textColor="@color/font_dark"
-                android:textSize="20sp"
-                android:text="@string/tap_to_choose_delivery_location"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/tap_to_choose_delivery_location"
+                android:textColor="@color/font_dark"
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/use_the_map_to_select_your_delivery_address"/>
+                android:fontFamily="@font/roboto"
+                android:text="@string/use_the_map_to_select_your_delivery_address" />
 
         </LinearLayout>
 
@@ -111,13 +113,15 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:textColor="@color/font_dark"
-                android:textSize="20sp"
-                android:text="Hangout"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Hangout"
+                android:textColor="@color/font_dark"
+                android:textSize="20sp" />
 
             <TextView
+                android:fontFamily="@font/roboto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/_3333_riifa_avenue_913_riffa_037_2222222222"/>
@@ -160,16 +164,121 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:textColor="@color/font_dark"
-                android:textSize="20sp"
-                android:text="Office"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Office"
+                android:textColor="@color/font_dark"
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/_193_19_1260_awal_ave_324_juffair_937_777777777"/>
+                android:fontFamily="@font/roboto"
+                android:text="@string/_193_19_1260_awal_ave_324_juffair_937_777777777" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <RelativeLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="15dp"
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true">
+
+        <ImageView
+            android:contentDescription="@string/location_icon"
+            android:id="@+id/location_icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_location" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/location_icon4"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Hangout"
+                android:textColor="@color/font_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3333_riifa_avenue_913_riffa_037_2222222222"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="15dp"
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true">
+
+        <ImageView
+            android:contentDescription="@string/location_icon"
+            android:id="@+id/location_icon5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_location" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/location_icon5"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Hangout"
+                android:textColor="@color/font_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:fontFamily="@font/roboto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3333_riifa_avenue_913_riffa_037_2222222222"/>
 
         </LinearLayout>
 
