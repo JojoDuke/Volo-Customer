@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         app:itemTextColor="@color/primary"
         app:itemIconTint="@color/primary"
-        app:itemShapeFillColor="@color/white"
         android:layout_height="match_parent"
         android:background="@color/secondary"
         app:menu="@menu/main_menu"
@@ -81,6 +80,7 @@
         </RelativeLayout>
 
         <Button
+            android:onClick="callBrowsePage"
             android:fontFamily="@font/roboto"
             android:id="@+id/browse_partners"
             android:layout_marginTop="60dp"

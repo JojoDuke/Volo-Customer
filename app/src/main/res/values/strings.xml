@@ -23,4 +23,18 @@
     <string name="_193_19_1260_awal_ave_324_juffair_937_777777777">193, 19, 1260, Awal Ave, 324, Juffair, _937 777777777</string>
     <string name="location_icon">location icon</string>
     <string name="close_icon">Close Icon</string>
+    <string name="closed_alert">Sorry, VOLO is closed at the moment but they do allow pre orders. You can browse the menu and pre order</string>
+    <string name="cancel">Cancel</string>
+    <string name="okay">Ok</string>
+    <string name="sorry_message">Sorry, there is no partner of this type near \n you yet</string>
+    <string name="alert">Alert</string>
+    <string name="hangout_3333_riffa">Hangout, 3333, Riffa</string>
+    <string name="sad_image">sad image</string>
+    <string name="sad">Sad</string>
+    <string name="volo">VOLO</string>
+    <string name="frozen_yoghurt_lebanese_persian">Frozen yoghurt, Lebanese, Persian</string>
+    <string name="distance_8_00_km_min_bd_9_000">Distance: 8.00 km | Min: BD 9,000</string>
+    <string name="delivery_bd_1_300_duration_52_mins">Delivery: BD 1,300 | Duration: 52 mins</string>
+    <string name="placeholder_image">Placeholder Image</string>
+
 </resources>

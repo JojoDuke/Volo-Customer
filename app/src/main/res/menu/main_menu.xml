@@ -9,42 +9,41 @@
 
                     <item
                         android:id="@+id/nav_orders"
-                        android:icon="@drawable/ic_search"
+                        android:icon="@drawable/ic_orders"
                         android:title="@string/my_orders" />
 
                     <item
-                        android:iconTint="@color/primary"
                         android:id="@+id/nav_reservations"
-                        android:icon="@drawable/ic_orders"
+                        android:icon="@drawable/ic_reservations"
                         android:title="@string/reservations" />
 
                     <item
-                        android:icon="@drawable/ic_home"
+                        android:icon="@drawable/ic_my_reservations"
                         android:id="@+id/nav_my_reservations"
                         android:title="@string/my_reservations" />
 
                     <item
-                        android:icon="@drawable/ic_home"
+                        android:icon="@drawable/ic_promotions"
                         android:id="@+id/nav_promotions"
                         android:title="@string/promotions" />
 
                     <item
-                        android:icon="@drawable/ic_home"
+                        android:icon="@drawable/ic_wallet"
                         android:id="@+id/nav_wallet"
                         android:title="@string/wallet" />
 
                     <item
-                        android:icon="@drawable/ic_home"
+                        android:icon="@drawable/ic_help"
                         android:id="@+id/nav_help"
                         android:title="@string/help" />
 
                     <item
-                        android:icon="@drawable/ic_home"
+                        android:icon="@drawable/ic_settings"
                         android:id="@+id/nav_settings"
                         android:title="@string/settings" />
 
                     <item
-                        android:icon="@drawable/ic_home"
+                        android:icon="@drawable/ic_info"
                         android:id="@+id/nav_about_volo"
                         android:title="@string/about_volo" />
 

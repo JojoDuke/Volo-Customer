@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="15dp"
+    android:id="@+id/browse_recycler_view"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/category_image"
+        android:layout_gravity="center"
+        android:layout_width="60dp"
+        android:src="@drawable/ic_sorry"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:text="Pet Stores"
+        android:id="@+id/category_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

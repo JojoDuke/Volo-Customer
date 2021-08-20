@@ -128,7 +128,10 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
                 startActivity(orders);
                 break;
         }
-
         return true;
+    }
+
+    public void callBrowsePage(View view) {
+        startActivity(new Intent(getApplicationContext(), BrowsePage.class));
     }
 }

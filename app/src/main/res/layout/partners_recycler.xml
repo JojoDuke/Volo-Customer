@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:id="@+id/partners_recycler"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/placeholder_image"
+            android:id="@+id/image"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/alert_dialog_background"
+            android:layout_width="110dp"
+            android:layout_height="110dp"/>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vendor"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"
+                android:text="@string/volo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/product"
+                android:text="@string/frozen_yoghurt_lebanese_persian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/distance"
+                android:text="@string/distance_8_00_km_min_bd_9_000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/delivery_time"
+                android:text="@string/delivery_bd_1_300_duration_52_mins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RatingBar
+                android:progressTint="@color/primary"
+                android:rating="4.5"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+</LinearLayout>
