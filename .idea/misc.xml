@@ -5,14 +5,31 @@
       <map>
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/drawable/alert_dialog_background.xml" value="0.2203125" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/drawable/circle.xml" value="0.2203125" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_about.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_account_info.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_add_address.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_browse_page.xml" value="0.33" />
-        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_home_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_final_help.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_help_page.xml" value="0.25" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_home_page.xml" value="0.33" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_my_orders.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_saved_addresses.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_sub_help.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_suggestion_page.xml" value="0.25" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/activity_wallet_page.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/add_address_verification_popup.xml" value="0.33" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/browse_alert.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/browse_alert_dialog.xml" value="0.33" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/browse_recycler.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/change_password_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/change_recovery_code_dialog.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/delivery_address_bottom_sheet.xml" value="0.33" />
+        <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/enter_recovery_code_dialog.xml" value="0.33" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/filter_bottom_sheet.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/fragment_no_partners.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PAVILION/Desktop/Projects/Android Apps/VoloCustomer/app/src/main/res/layout/fragment_partners.xml" value="0.33" />

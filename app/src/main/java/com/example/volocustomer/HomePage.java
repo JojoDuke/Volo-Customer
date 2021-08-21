@@ -127,6 +127,26 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
                 orders.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(orders);
                 break;
+            case R.id.nav_help:
+                Intent help = new Intent(getApplicationContext(), HelpPage.class);
+                help.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(help);
+                break;
+            case R.id.nav_about_volo:
+                Intent about = new Intent(getApplicationContext(), About.class);
+                about.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(about);
+                break;
+            case R.id.nav_settings:
+                Intent settings = new Intent(getApplicationContext(), Settings.class);
+                settings.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(settings);
+                break;
+            case R.id.nav_wallet:
+                Intent wallet = new Intent(getApplicationContext(), WalletPage.class);
+                wallet.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(wallet);
+                break;
         }
         return true;
     }

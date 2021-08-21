@@ -11,6 +11,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VoloCustomer">
         <activity
+            android:name=".AddAddress"
+            android:exported="true" />
+        <activity
+            android:name=".SavedAddresses"
+            android:exported="true" />
+        <activity
+            android:name=".AccountInfo"
+            android:exported="true" />
+        <activity
+            android:name=".FinalHelp"
+            android:exported="true" />
+        <activity
+            android:name=".WalletPage"
+            android:exported="true" />
+        <activity
+            android:name=".SubHelp"
+            android:exported="true" />
+        <activity
+            android:name=".SuggestionPage"
+            android:exported="true" />
+        <activity
+            android:name=".About"
+            android:exported="true" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".Settings"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".HelpPage"
+            android:exported="true" />
+        <activity
             android:name=".BrowsePage"
             android:exported="true" />
         <activity

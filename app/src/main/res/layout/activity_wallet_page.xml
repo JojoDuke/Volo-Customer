@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WalletPage">
+
+    <RelativeLayout
+        android:background="@color/secondary"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:onClick="callHomePage"
+            android:id="@+id/back_icon"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wallet"
+            android:textColor="@color/primary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto"
+            android:id="@+id/title"
+            android:text="@string/wallet_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="50sp"
+            android:layout_below="@id/title"
+            android:text="$400.00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_marginEnd="90dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/primary"
+            android:background="@drawable/circle"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+
+
+            <ImageView
+                android:id="@+id/add"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_add"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                app:tint="@color/black" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/add"
+                android:layout_centerHorizontal="true"
+                android:text="Top Up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/primary"
+            android:background="@drawable/circle"
+            android:layout_width="120dp"
+            android:layout_height="120dp">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_credit_card"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                app:tint="@color/black" />
+
+            <TextView
+                android:text="Cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FinalHelp">
+
+    <RelativeLayout
+        android:background="@color/secondary"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:onClick="callSubHelp"
+            android:id="@+id/back_icon"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textColor="@color/primary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_order_is_late"/>
+
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/we_re_sorry_to_hear_that_n_you_can_check_the_status_of_your_order_form_the_order_tracking_page_you_can_also_call_and_chat_with_your_driver_from_there_or_ring_up_the_partner_alternatively_you_can_contact_us_by_pressing_the_button_below_and_we_ll_get_this_resolved_for_you"/>
+
+    <Button
+        android:text="@string/chat_with_us"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"/>
+
+</LinearLayout>

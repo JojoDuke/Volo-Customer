@@ -6,37 +6,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".SplashScreen">
 
-    <LinearLayout
-        android:layout_centerInParent="true"
-        android:orientation="vertical"
+    <ImageView
+        android:id="@+id/volo_logo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="350dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/logo2" />
 
-        <ImageView
-            android:id="@+id/volo_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/app_logo" />
-
-
-        <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/loading_animation"
-            android:layout_width="100dp"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            app:lottie_rawRes="@raw/loading"
-            android:layout_height="100dp"/>
-
-    </LinearLayout>
-
-
-    <TextView
-
-        android:layout_margin="15dp"
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading_animation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/volo"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:text="@string/company"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading" />
+
+    <ImageView
+        android:id="@+id/volo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/logo" />
 
 </RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <RelativeLayout
+        android:background="@color/secondary"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:onClick="callHomePage"
+            android:id="@+id/back_icon"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textColor="@color/primary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="@string/our_vision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:text="@string/we_envision_a_world_where_people_can_browse_and_order_what_they_want_whenever_they_want_with_a_couple_of_taps_on_a_screen_free_from_all_the_hassle_and_with_all_the_support_needed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/black"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:textAllCaps="true"
+                android:text="@string/our_mission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="@string/we_ve_made_it_our_mission_to_be_the_middle_man_and_the_helping_hand_to_all_of_our_users_by_offering_a_quality_experience_to_all_the_parties_involved_with_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:text="@string/got_something_to_say"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="@string/your_opinion_matter_to_us_so_if_you_have_a_suggestion_or_a_complaint_please_let_us_know_by_tapping_the_button_below_and_filling_out_the_form_alternatively_you_can_chat_directly_with_us_via_live_chat_and_we_ll_be_happy_to_listen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+           <RelativeLayout
+               android:onClick="callSuggestion"
+               android:layout_marginTop="40dp"
+               android:layout_gravity="center"
+               android:backgroundTint="@color/primary"
+               android:background="@drawable/circle"
+               android:layout_width="80dp"
+               android:layout_height="80dp">
+
+               <ImageView
+                   android:src="@drawable/ic_write"
+                   android:layout_centerInParent="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+           </RelativeLayout>
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/press_the_link_below_to_view_our_terms_and_conditions"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms &amp; Conditions"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
